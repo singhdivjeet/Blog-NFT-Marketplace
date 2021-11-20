@@ -1,0 +1,22 @@
+.toolsheading {
+	font-size: 2rem;
+	color: aliceblue;
+	font-weight: bolder;
+	margin-top: 1rem;
+}
+
+section ul li {
+	display: flex;
+	margin: 2rem;
+	align-items: center;
+	padding: 0 10rem;
+}
+ul li p {
+	font-size: small;
+	padding: 0 1rem;
+}
+
+ul li .desc {
+	font-size: medium;
+	margin-left: 1.5rem;
+}

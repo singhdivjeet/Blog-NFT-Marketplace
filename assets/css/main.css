@@ -147,7 +147,7 @@ button {
 }
 .at-column:hover {
 	z-index: 1;
-
+	border-radius: 14px;
 	box-shadow: 0 8px 50px rgba(0, 0, 0, 0.2);
 	-webkit-transform: scale(1.05);
 	transform: scale(1.05);
@@ -160,7 +160,7 @@ button {
 		-webkit-transform 0.2s ease;
 }
 .at-column:hover .at-social {
-	margin: 16px 0 0;
+	/* margin: 16px 0 0; */
 	opacity: 1;
 	padding: 0;
 }
@@ -230,6 +230,7 @@ button {
 }
 .at-social__item a {
 	display: block;
+	color: rgba(219, 39, 120, 0.897);
 }
 .at-social__item img {
 	fill: #515f65;
@@ -241,7 +242,6 @@ button {
 
 .container-team {
 	width: 100%;
-
 	box-sizing: border-box;
 	-webkit-transform-origin: top center;
 	transform-origin: top center;

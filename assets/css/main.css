@@ -651,7 +651,7 @@ p {
 	-webkit-transition: all 0.4s ease-in-out;
 	transition: all 0.4s ease-in-out;
 	border: none;
-	background: #5864ff;
+	background: rgb(219, 39, 119);
 	overflow: hidden;
 }
 
@@ -660,9 +660,11 @@ p {
 }
 
 .main-btn.border-btn {
-	border: 2px solid #5864ff;
+	/* border: 2px solid #5864ff; */
 	background: transparent;
-	color: #5864ff;
+	border: 2px solid rgb(219, 39, 119);
+	color: rgb(219, 39, 119);
+	/* color: #5864ff; */
 }
 
 .btn-hover {
@@ -676,7 +678,7 @@ p {
 	width: 0%;
 	height: 0%;
 	border-radius: 50%;
-	background: rgba(0, 0, 0, 0.05);
+	background: rgba(219, 39, 119, 0.05);
 	top: 50%;
 	left: 50%;
 	padding: 50%;
@@ -695,7 +697,8 @@ p {
 .scroll-top {
 	width: 45px;
 	height: 45px;
-	background: #5864ff;
+	/* border: 2px solid rgb(177, 26, 94); */
+	background: rgb(219, 39, 119);
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -721,7 +724,7 @@ p {
 
 .scroll-top:hover {
 	color: #fff;
-	background: rgba(88, 100, 255, 0.8);
+	background: rgba(219, 39, 120, 0.897);
 }
 
 @keyframes animation1 {
@@ -1179,7 +1182,7 @@ p {
 	height: 5px;
 	width: 0;
 	border-radius: 16px;
-	background: #fd46fd;
+	background: rgb(219, 39, 119);
 	bottom: 15px;
 	left: 0;
 	z-index: -1;
@@ -1300,8 +1303,8 @@ p {
 	height: 40px;
 	border-radius: 50%;
 	background: #fff;
-	border: 3px solid #5864ff;
-	color: #5864ff;
+	border: 3px solid rgb(219, 39, 119);
+	color: rgb(219, 39, 119);
 	left: 15px;
 	bottom: 0;
 	z-index: 9;
@@ -1385,7 +1388,7 @@ p {
 	height: 130px;
 	border-radius: 50%;
 	background: rgba(88, 100, 255, 0.1);
-	color: #5864ff;
+	color: #172549e8;
 	margin: auto;
 	margin-bottom: 30px;
 	font-size: 65px;
@@ -1715,8 +1718,7 @@ p {
 	background-image: url("../img/footer/footer-bg.svg");
 	background-size: cover;
 	background-position: top right;
-	padding-top: 260px;
-	margin-top: 100px;
+	padding-top: 300px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {

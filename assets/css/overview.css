@@ -15,6 +15,8 @@ ul li {
 	align-items: center;
 	padding: 1rem 4rem;
 	text-align: center;
+	color: aliceblue;
+	text-decoration: underline;
 }
 ul li .subtitle {
 	font-size: xx-large;
@@ -25,6 +27,6 @@ ul li .subtitle {
 
 .caption {
 	font-size: medium;
-	color: #6b82b9;
+	color: rgb(119, 152, 180);
 	padding: 1rem;
 }

@@ -9,10 +9,10 @@ section ul li {
 	display: flex;
 	margin: 2rem;
 	align-items: center;
-	padding: 0.5rem;
+	padding: 1rem;
 }
 ul li p {
-	font-size: small;
+	font-size: medium;
 	padding: 0 1rem;
 }
 
@@ -21,22 +21,11 @@ ul li .desc {
 	margin-left: 1.5rem;
 }
 
-figcaption {
+.desc h3 {
 	color: aliceblue;
-	font-size: larger;
-}
-
-.list li h2,
-h3 {
-	color: aliceblue;
-}
-
-.list li h3 {
 	text-decoration: underline;
 }
 
-.list li p {
+.desc p {
 	color: rgb(119, 152, 180);
-	font-size: medium;
-	padding-top: 4px;
 }
